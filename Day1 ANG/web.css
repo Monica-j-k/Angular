@@ -1,0 +1,128 @@
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.part1
+{
+    height: 80px;
+    width:100%;
+    display: flex;
+    background-color: #263a65; 
+    position: static;
+    
+}
+ul li
+{
+    display: inline;
+    float:right;
+    padding: 10px;
+    margin-top: 10px;
+}
+.part2 small{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.546);
+    margin-top: 70px;
+    margin-left: 60px;
+    font-family:sans-serif;
+}
+.heading
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:hover
+{
+    background-color:#16223c;
+    border-radius: 10px; 
+}
+
+.part3
+{
+    width: 100%;
+    height: 250px;
+    display: flex;  
+    background-color: #3ee687;
+    position: static;
+    
+}
+.part3 h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.part3 p{
+    color:rgba(245, 245, 220, 0.78);
+    font-size: small;
+}
+
+.section
+{
+    width: 270px;
+    display: flex;
+    margin:50px 70px 70px 70px;
+   
+}
+
+.part2
+{
+    
+    height:350px;
+    display: flex;
+    height:315px;
+    position: static;
+  
+
+ background-image: url("banner.jpg");
+ background-repeat:no-repeat;
+ background-size:cover; 
+
+background-position-y:-300px;
+    
+}
+
+.txt{
+    position: absolute;
+    color: white;
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.png
+{
+   width: 100%;
+   
+}
+
+
+.content, .img
+{
+   padding: 2%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title
+{
+    display:flex;
+    margin-left: 100px;
+    margin-top: 20px;
+    width:500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+    color: white;
+}   
+.head
+{
+    padding-left: 10px;
+}
+
