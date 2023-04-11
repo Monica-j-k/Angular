@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="page.css">
+    <title>POPUP</title>
+</head>
+<body>
+    <button id="modal-open">CLICK ME</button>
+
+    <div id="contact-modal" class="modal">
+        <div id="modal-content">
+            <div id="modal-header">
+                <span class="close-modal">&times;</span>
+                <h3>REGISTRATION</h3>
+            </div>
+
+            <div id="modal-body">
+                <form>
+
+                    <div class="form">
+                        <label for="first-name">First Name</label>
+                        <input type="text" placeholder="Enter Your FirstName">
+                    </div>
+
+                    <div class="form">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" placeholder="Enter Your LastName">
+                    </div>
+
+                    <div class="form">
+                        <label for="city">City</label>
+                        <input type="text" placeholder="Enter Your City">
+                    </div>
+
+                    <div class="form">
+                        <label for="age">Age</label>
+                        <input type="number" placeholder="Enter Your Age">
+                    </div>
+
+
+                    <div class="form">
+                        <label for="exp">Experience</label>
+                        <input type="number" placeholder="Enter Your Experience">
+                    </div>
+
+                    <div class="form">
+                        <label for="first-name">DOB</label>
+                        <input type="date">
+                    </div>
+
+
+                    <div class="form">
+                        <label for="you">About You</label>
+                        <textarea placeholder="Tell us something about you"></textarea>
+                    </div>
+
+                    <div class="form-group" id="gender">
+                        <label for="you">Gender</label>&emsp;
+                        <input type="radio" name="gender">
+                        <label for="Gender">Female</label>&nbsp;&nbsp;
+                        <input type="radio" name="gender">
+                        <label for="Gender">Male</label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="you">Skills</label>&emsp;&emsp;
+                        <input type="checkbox">C++&nbsp;&nbsp;
+                        <input type="checkbox">Java&nbsp;&nbsp;
+                        <input type="checkbox">Python
+                    </div>
+
+                    <input type="submit" value="SUBMIT">
+        
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="page.js"></script>
+</body>
+</html>
