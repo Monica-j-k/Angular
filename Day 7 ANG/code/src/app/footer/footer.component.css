@@ -1,0 +1,40 @@
+.part3
+{
+    width: 33.3%;
+    height: 250px;
+    display: flex;  
+    float: left;
+    background-color: #3ee687;
+    position: static;
+    
+}
+.part3 h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.part3 p{
+    color:rgba(245, 245, 220, 0.78);
+    font-size: small;
+}
+
+.section
+{
+    width: 270px;
+    display: flex;
+    margin:50px 40px 40px 70px;
+   
+}
+
+.content
+{
+   padding: 3%;
+   color: white;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.part3 img
+{
+    max-width:40px;
+    max-height: 40px;
+    align-items: center;
+    padding-top: 30px;
+}

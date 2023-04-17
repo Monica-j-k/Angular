@@ -1,0 +1,34 @@
+.part2
+{
+    
+    height:350px;
+    display: flex;
+    height:315px;
+    position: static;
+  
+
+ background-image: url("C:\Users\monica.jk\OneDrive - Dedalus S.p.A\Desktop\Day 6\Webpage\src\assets\banner.jpg");
+ background-repeat:no-repeat;
+ background-size:cover; 
+
+background-position-y:-300px;
+    
+}
+
+.part2 small{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.546);
+    margin-top: 70px;
+    margin-left: 60px;
+    font-family:sans-serif;
+}
+
+
+.txt{
+    position: absolute;
+    color: white;
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
