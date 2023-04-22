@@ -1,0 +1,33 @@
+<!-- <button mat-icon-button style="float:right;" matDialogClose>
+    <mat-icon>close</mat-icon>
+</button> -->
+
+<mat-dialog-content>
+    <mat-form-field>
+        <input matInput placeholder="FirstName">
+        <mat-icon matSuffix>person</mat-icon>
+    </mat-form-field>
+
+    <mat-form-field>
+        <input matInput placeholder="LastName">
+        <mat-icon matSuffix>person</mat-icon>
+    </mat-form-field>
+
+    <mat-form-field>
+        <input matInput placeholder="Education">
+        <mat-icon matSuffix>school</mat-icon>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+        <mat-label>DOB</mat-label>
+        <input matInput [matDatepicker]="picker">
+        <mat-hint>DD/MM/YYYY</mat-hint>
+        <mat-datepicker-toggle matIconsuffix [for] ="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-content align="end">
+    <button mat-raised-button color="accent">Sign Up </button>
+    <button mat-raised-button color="disabled" matDialogClose>Cancel </button>
+</mat-dialog-content>
