@@ -1,0 +1,23 @@
+.example-card {
+    max-width: 60%;
+    border: .5px solid black;
+    margin: .5rem auto;
+    background-color:rgb(192, 217, 226);
+}
+.txt{
+    margin: .5rem;
+    font-size: 1rem;
+    font-family: cursive;
+}
+.txt h3
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tp{
+    float: right;
+    font-size: .8rem;
+    margin: .5rem;
+}
+.par{
+    text-align: center;
+}
