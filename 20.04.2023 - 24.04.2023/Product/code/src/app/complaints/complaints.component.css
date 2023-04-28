@@ -1,0 +1,39 @@
+.comp{
+  color:brown;
+  font-weight: bolder;
+  font-variant: small-caps;
+}
+
+.pos{
+  float:inline-end;
+  
+}
+
+.example-form mat-form-field {
+  width: 60%;
+  margin: auto;
+  background-color: rgb(227, 197, 132);
+}
+.example-full-width {
+  width: 100%;
+}
+
+.example-option-img {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+[dir="rtl"] .example-option-img {
+  margin-right: 0;
+  margin-left: 8px;
+}
+
+.frm {
+  padding: 75px;
+  background-color: rgb(156, 213, 230);
+  
+}
+#clss {
+  align-items: center;
+  justify-content: center;
+}

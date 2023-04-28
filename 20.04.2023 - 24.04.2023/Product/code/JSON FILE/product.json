@@ -1,0 +1,81 @@
+{
+  "product": [
+    {
+      "id": 21,
+      "name": "Mac",
+      "price": 50000,
+      "image": "mac.jpg",
+      "type": "Electronics"
+    },
+    {
+      "id": 8927,
+      "name": "Mascara",
+      "price": 300,
+      "image": "maskara.jpg",
+      "type": "Cosmetics"
+    },
+    {
+      "id": 7321,
+      "name": "Oranges",
+      "price": 200,
+      "image": "Orange.jpg",
+      "type": "Groceries"
+    },
+    {
+      "id": 1530,
+      "name": "The Lord of the Rings",
+      "price": 1299,
+      "image": "book1.jpg",
+      "type": "Books"
+    },
+    {
+      "id": 6894,
+      "name": "Tomato",
+      "price": 100,
+      "image": "tomato.jpg",
+      "type": "Groceries"
+    },
+    {
+      "id": 8934,
+      "name": "Samsung-s21",
+      "price": 25000,
+      "image": "samsung-s21.jpg",
+      "type": "Electronics"
+    },
+    {
+      "id": 815,
+      "name": "To kill a Mockingbird",
+      "price": 999,
+      "image": "book2.jpg",
+      "type": "Books"
+    },
+    {
+      "id": 815,
+      "name": "Name of the wind",
+      "price": 1299,
+      "image": "book3.jpg",
+      "type": "Books"
+    },
+    {
+      "id": 7442,
+      "name": "Lip Balm",
+      "price": 500,
+      "type": "Cosmetics",
+      "image": "lipbalm.jpg"
+    },
+    {
+      "id": 2446,
+      "name": "Almond",
+      "price": 600,
+      "image": "almonds.jpg",
+      "type": "Groceries"
+    },
+    {
+      "id": 8615,
+      "name": "iPhone-13",
+      "price": 40000,
+      "image": "iphone-13.jpg",
+      "type": "Electronics"
+    }
+  ]
+}
